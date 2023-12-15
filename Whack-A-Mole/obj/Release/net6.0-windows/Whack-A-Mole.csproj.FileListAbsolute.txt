@@ -1,0 +1,85 @@
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\Mole.png
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.exe
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.deps.json
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.runtimeconfig.json
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.dll
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.pdb
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\MainWindow.baml
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\App.g.cs
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole_MarkupCompile.cache
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.g.resources
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.AssemblyInfoInputs.cache
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.AssemblyInfo.cs
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.csproj.CoreCompileInputs.cache
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.dll
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\refint\Whack-A-Mole.dll
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.pdb
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.genruntimeconfig.cache
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\ref\Whack-A-Mole.dll
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\Cat.png
+C:\Users\Jesper H. Hansen\source\repos\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\GoldMole.png
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\Cat.png
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\GoldMole.png
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\Mole.png
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.exe
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.deps.json
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.runtimeconfig.json
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.dll
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.pdb
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\MainWindow.baml
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\App.g.cs
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole_MarkupCompile.cache
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.g.resources
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.AssemblyInfoInputs.cache
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.AssemblyInfo.cs
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.csproj.CoreCompileInputs.cache
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.dll
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\refint\Whack-A-Mole.dll
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.pdb
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.genruntimeconfig.cache
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\ref\Whack-A-Mole.dll
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sounds\Cat1.mp3
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sounds\Gold1.mp3
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sounds\Mole.mp3
+C:\Users\nikke\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\Grass.png
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sounds\Cat1.mp3
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sounds\Gold1.mp3
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sounds\Mole.mp3
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\Cat.png
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\GoldMole.png
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\Grass.png
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sprites\Mole.png
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.exe
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.deps.json
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.runtimeconfig.json
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Whack-A-Mole.pdb
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\MainWindow.baml
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\App.g.cs
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole_MarkupCompile.cache
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.g.resources
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.AssemblyInfoInputs.cache
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.AssemblyInfo.cs
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.csproj.CoreCompileInputs.cache
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\refint\Whack-A-Mole.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.pdb
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.genruntimeconfig.cache
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\ref\Whack-A-Mole.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sounds\BackgroundMusic.mp3
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\NAudio.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\NAudio.Asio.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\NAudio.Core.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\NAudio.Midi.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\NAudio.Wasapi.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\NAudio.WinForms.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\NAudio.WinMM.dll
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.csproj.AssemblyReference.cache
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\obj\Release\net6.0-windows\Whack-A-Mole.csproj.CopyComplete
+C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\bin\Release\net6.0-windows\Sounds\Thud.mp3

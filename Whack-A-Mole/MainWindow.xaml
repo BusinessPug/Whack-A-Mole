@@ -1,0 +1,119 @@
+﻿<Window x:Class="WhackAMole.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Background="{DynamicResource backgroundImage}"
+        Title="Whack-A-Mole" Height="550" Width="1000">
+    
+    <!-- function to change the mouseover effect and border appearance on buttons -->
+    <Window.Resources>
+        <ControlTemplate x:Key="NoMouseOverButtonTemplate"   
+                 TargetType="Button">
+            <Border Background="{TemplateBinding Background}"  
+          BorderBrush="{TemplateBinding BorderBrush}"  
+          BorderThickness="{TemplateBinding BorderThickness}">
+                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"  
+                      VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+            </Border>
+
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsEnabled"  
+             Value="False">
+                    <Setter Property="Background"  
+              Value="{x:Static SystemColors.ControlLightBrush}" />
+                    <Setter Property="Foreground"  
+              Value="{x:Static SystemColors.GrayTextBrush}" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <!-- Initializing the background image -->
+        <ImageSource x:Key="imgSource">C:\Users\Jesper H. Hansen\Desktop\Whack-A-Mole\Whack-A-Mole\Sprites\Grass.png</ImageSource>
+        <ImageBrush x:Key="backgroundImage" ImageSource="{DynamicResource imgSource}" Opacity="0.9"></ImageBrush>
+
+    </Window.Resources>
+
+    <!-- grid definitions of the score, time and start button -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+    
+        <!-- Said text, and button -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Background="#AA000000">
+            <TextBlock Text="Score: " VerticalAlignment="Center" Foreground="Snow" FontSize="24"/>
+            <TextBlock x:Name="ScoreTextBlock" Text="0" VerticalAlignment="Center" Foreground="Snow" FontSize="24"/>
+            <TextBlock Text="  Time: " VerticalAlignment="Center" Foreground="Snow" FontSize="24"/>
+            <TextBlock x:Name="TimeTextBlock" Text="300" VerticalAlignment="Center" Foreground="Snow" FontSize="24"/>
+            <TextBlock Text="  Health: " VerticalAlignment="Center" Foreground="Snow" FontSize="24"/>
+            <TextBlock x:Name="HitPointsValue" Text="3"  VerticalAlignment="Center" Foreground="Snow" FontSize="24"/>
+        </StackPanel>
+        
+        <!-- Uniform grid of the "mole" buttons -->
+        <UniformGrid Grid.Row="1" Rows="3" Columns="3" Background="Transparent"> <!-- transparent background to show the image -->
+            <Button x:Name="Mole1" Content="" Click="moleClick" BorderThickness="0" Background="Transparent" Template="{StaticResource NoMouseOverButtonTemplate}"/>
+            <Button x:Name="Mole2" Content="" Click="moleClick" BorderThickness="0" Background="Transparent" Template="{StaticResource NoMouseOverButtonTemplate}"/>
+            <Button x:Name="Mole3" Content="" Click="moleClick" BorderThickness="0" Background="Transparent" Template="{StaticResource NoMouseOverButtonTemplate}"/>
+            <Button x:Name="Mole4" Content="" Click="moleClick" BorderThickness="0" Background="Transparent" Template="{StaticResource NoMouseOverButtonTemplate}"/>
+            <Button x:Name="Mole5" Content="" Click="moleClick" BorderThickness="0" Background="Transparent" Template="{StaticResource NoMouseOverButtonTemplate}"/>
+            <Button x:Name="Mole6" Content="" Click="moleClick" BorderThickness="0" Background="Transparent" Template="{StaticResource NoMouseOverButtonTemplate}"/>
+            <Button x:Name="Mole7" Content="" Click="moleClick" BorderThickness="0" Background="Transparent" Template="{StaticResource NoMouseOverButtonTemplate}"/>
+            <Button x:Name="Mole8" Content="" Click="moleClick" BorderThickness="0" Background="Transparent" Template="{StaticResource NoMouseOverButtonTemplate}"/>
+            <Button x:Name="Mole9" Content="" Click="moleClick" BorderThickness="0" Background="Transparent" Template="{StaticResource NoMouseOverButtonTemplate}"/>
+        </UniformGrid>
+
+        <!-- Red flash -->
+        <Grid x:Name="HitPanel" Visibility="Collapsed" Background="#AAFF0000" Opacity="0.6" Grid.RowSpan="2" IsHitTestVisible="True"></Grid>
+
+        <!-- Game over display -->
+        <Grid x:Name="GameOverPanel" Visibility="Collapsed" Background="#AA000000" Grid.RowSpan="2" IsHitTestVisible="True">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock x:Name="GameOverText" Text="Game Over" FontSize="48" Foreground="White" TextAlignment="Center" Margin="0,20,0,0"/>
+                <TextBlock x:Name="FinalScoreText" FontSize="24" Foreground="White" TextAlignment="Center" Margin="0,10,0,20"/>
+                <TextBlock x:Name="HighScoreText" Text="" FontSize="24" Foreground="White" TextAlignment="Center" Margin="0, 10, 0, 20"/>
+                <Button x:Name="TryAgainButton" Content="Return To Menu" FontSize="24" Width="200" Height="50" Click="ReturnToMenu"/>
+            </StackPanel>
+        </Grid>
+        
+        <!-- Start menu -->
+        <Grid x:Name="StartupMenu" Background="#AA000000" Visibility="Visible"
+              Grid.RowSpan="2" IsHitTestVisible="True">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Welcome to Whack-A-Mole!" FontSize="48" Foreground="White" TextAlignment="Center"/>
+                <TextBlock Text="Hit as many moles as you can without hitting the cats or an empty box." FontSize="24" Foreground="White" TextAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap"/>
+                <TextBlock Text="Moles give 1 point, Golden moles give 3, Cats take a point away, and an empty box does nothing" FontSize="24" Foreground="White" TextAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap"/>
+                <Button x:Name="StartButton" Content="Start Game" Click="StartGame" FontSize="24" Width="200" Height="50" Margin="0,20,0,0"/>
+                <Button x:Name="Settings" Content="Settings" Click="GameSettings" FontSize="24" Width="200" Height="50" Margin="0,20,0,0"/>
+            </StackPanel>
+        </Grid>
+        
+        <!-- Settings menu -->
+        <Grid x:Name="SettingsMenu" Background="#AA000000" Visibility="Collapsed"
+      Grid.RowSpan="2" IsHitTestVisible="True">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="BGM Volume" FontSize="40" Foreground="White" TextAlignment="Center"/>
+                <Slider x:Name="BGMSlider" Minimum="0" Maximum="100" Value="50" ValueChanged="BGMSlider_ValueChanged"/>
+                <TextBlock Text="SFX Volume" FontSize="40" Foreground="White" TextAlignment="Center"/>
+                <Slider x:Name="SFXSlider" Minimum="0" Maximum="100" Value="50" ValueChanged="SFXSlider_ValueChanged"/>
+                <TextBlock Text="Difficulty:" FontSize="40" Foreground="White" TextAlignment="Center"/>
+                <ComboBox Name="Difficulty" Height="40" FontSize="28" HorizontalContentAlignment="Center" >
+                    <ComboBox.Resources>
+                        <Style TargetType="ComboBoxItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </ComboBox.Resources>
+                    <ComboBoxItem Content="Easy" FontSize="30"/>
+                    <ComboBoxItem Content="Medium" FontSize="30"/>
+                    <ComboBoxItem Content="Hard" FontSize="30"/>
+                </ComboBox>
+                <TextBlock Text="Game Time (Standard is 300):" FontSize="40" Foreground="White" TextAlignment="Center"/>
+                <TextBox x:Name="GameTimeValue" Width="200" TextAlignment="Center" FontSize="26" Text="300" ></TextBox>
+                <TextBlock Text="Health (Standard is 3):" FontSize="40" Foreground="White" TextAlignment="Center"/>
+                <TextBox x:Name="UserHitPoints" Width="200" TextAlignment="Center" FontSize="26" Text="3" ></TextBox>
+                <Button x:Name="Return" Content="Save and Return" Click="ReturnToMenu" FontSize="24" Width="200" Height="50" Margin="0,20,0,0"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
